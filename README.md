@@ -1,4 +1,4 @@
-<h1 align="center">onno</h1>
+<h1 align="center">onno or omo</h1>
 
 [View the live project here.](https://https://github.com/dijonsauce)
 
