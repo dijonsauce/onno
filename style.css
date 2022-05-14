@@ -1,0 +1,51 @@
+/* Includes paddding & border in an element's total width & height.*/
+* {
+    box-sizing: border-box;
+}
+
+/* Removes margins & paddings from list.*/
+ul {
+    margin: 0;
+    padding: 0'
+}
+
+/* Styling the list items. */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: lightgreen;
+    font-size: 15px;
+    transition: 0.2s;
+
+    /* Makes the list items unselectable. */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Sets all odd list items to a different colour (zebra-stripes). */
+ul li:nth-child(odd) {
+    background: lightcoral;
+}
+
+/* Dark background on hover. */
+ul li:hover {
+    background: lightgray;
+}
+
+/* Add a "checked" mark when clicked on.*/
+ul li.check :before {
+    content: ' ' ;
+    position: absolute;
+    border-color: #fff;;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height:15px;
+    width: 7px;
+}
+

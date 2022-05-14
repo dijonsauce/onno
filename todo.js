@@ -30,15 +30,15 @@ list.addEventListener('click', function(ev) {
 // Creates a new list item when clicking on the "Add" button.
 function newElement() {
   var li = document.createElement("li");
-  var inputValue = document.getElementById("userInput").value;
+  var inputValue = document.getElementById("myInput").value;
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
-  if (inputValue === '') {
+  if (inputValue === ' ' ) {
     alert("Write down your task.");
   } else {
-    document.getElementById("userUL").appendChild(li);
+    document.getElementById("myUL").appendChild(li);
   }
-  document.getElementById("userInput").value = "";
+  document.getElementById("myInput").value = "";
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
