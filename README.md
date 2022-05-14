@@ -1,6 +1,6 @@
-<h1 align="center">McCLUCKIN' Website</h1>
+<h1 align="center">onno</h1>
 
-[View the live project here.](https://dijonsauce.github.io/)
+[View the live project here.](https://https://github.com/dijonsauce)
 
 <h2 align="center"><img src="assets/docs/rwd-preview.png"></h2>
 
